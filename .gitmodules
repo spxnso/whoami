@@ -1,0 +1,3 @@
+[submodule "themes/umbra"]
+	path = themes/umbra
+	url = https://github.com/spxnso/umbra
