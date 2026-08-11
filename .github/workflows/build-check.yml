@@ -1,0 +1,25 @@
+name: build check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  zola-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.22.1
+
+      - name: Check links
+        run: zola check
+
+      - name: Build
+        run: zola build
