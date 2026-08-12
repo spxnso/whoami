@@ -1,0 +1,15 @@
+/* TEAM */
+Developer: spxnso
+Site: https://spxnso.fr
+GitHub: https://github.com/spxnso
+Location: France
+
+/* SITE */
+Last update: 2026/08/11
+Language: English
+Doctype: HTML5
+Software: Zola, git
+
+/* STANDARDS */
+This site uses semantic HTML5 markup, no third-party analytics, and no
+CDN-hosted assets.

@@ -1,0 +1,6 @@
+# If you find a security issue on spxnso.fr, please report it responsibly.
+Contact: mailto:security@spxnso.fr
+Contact: https://github.com/spxnso
+Expires: 2027-08-11T00:00:00.000Z
+Preferred-Languages: en, fr
+Canonical: https://spxnso.fr/.well-known/security.txt
