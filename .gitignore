@@ -1,0 +1,14 @@
+# Zola build output
+public/
+
+# search index cache, if built locally
+sass-cache/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# local env
+.env

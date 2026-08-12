@@ -1,0 +1,6 @@
+.git
+.github
+public/
+.DS_Store
+*.md
+!README.md
