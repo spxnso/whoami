@@ -1,0 +1,55 @@
+theme = "umbra"
+
+base_url = "https://spxnso.fr"
+title = "spxnso"
+description = "Portfolio & notes — projects, writing, and contact."
+
+compile_sass = true
+minify_html = true
+
+build_search_index = true
+
+# RSS
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+# Taxonomies
+taxonomies = [
+    { name = "tags" }
+]
+
+# Syntax highlighting
+[markdown.highlighting]
+style = "inline"
+dark_theme = "vitesse-dark"
+light_theme = "vitesse-light"
+
+# Search 
+[search]
+index_format = "elasticlunr_json"
+include_title = true
+include_description = true
+include_content = true
+truncate_content_length = 100
+
+
+# Extra configuration
+[extra]
+author = "spxnso"
+copyright = "© {year} Evann Borde."
+posts_copyright = "© {year} Evann Borde. Licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>."
+
+search = true
+toc = false # Enable table of contents in posts
+math = false # Enable math rendering with KaTeX (should be enabled per post with `math = true` in front matter)
+
+socials = [
+    { name = "github", url = "https://github.com/spxnso" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/spxnso" },
+]
+
+nav = [
+    { name = "posts", url = "/posts" },
+    { name = "projects", url = "/projects" },
+    { name = "contact", url = "/contact" },
+]
