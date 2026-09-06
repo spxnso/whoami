@@ -2,7 +2,7 @@ theme = "umbra"
 
 base_url = "https://spxnso.fr"
 title = "spxnso"
-description = "Portfolio & notes — projects, writing, and contact."
+description = "Portfolio & notes, projects, writing, and contact."
 
 compile_sass = true
 minify_html = true
