@@ -11,7 +11,7 @@ build_search_index = true
 
 # RSS
 generate_feeds = true
-feed_filenames = ["atom.xml"]
+feed_filenames = ["atom.xml", "rss.xml"]
 
 # Taxonomies
 taxonomies = [
