@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>{{ config.title }}</title>
         <link>{{ config.base_url | safe }}</link>
@@ -16,6 +16,7 @@
             <link>{{ page.permalink | safe }}</link>
             <guid>{{ page.permalink | safe }}</guid>
             <description>{{ page.description | default(value="") | escape_xml }}</description>
+            <content:encoded><![CDATA[{{ page.content | safe }}]]></content:encoded>
         </item>
         {%- endfor %}
     </channel>
